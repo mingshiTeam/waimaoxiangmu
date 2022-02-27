@@ -1,5 +1,9 @@
 <template>
 	<view class="content">
+		<view class="">
+			
+			  <u-button type="primary" :plain="true" text="镂空"></u-button>
+		</view>
 		<image class="logo" src="/static/logo.png"></image>
 		<view class="text-area">
 			<text class="title">{{title}}</text>
@@ -15,7 +19,7 @@
 			}
 		},
 		onLoad() {
-
+			console.log(getApp().globalData.language)
 		},
 		methods: {
 

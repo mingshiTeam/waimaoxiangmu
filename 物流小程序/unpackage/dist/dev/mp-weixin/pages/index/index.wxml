@@ -1,1 +1,1 @@
-<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title">{{title}}</text></view></view>
+<view class="content"><view><u-button vue-id="8dd740cc-1" type="primary" plain="{{true}}" text="镂空" bind:__l="__l"></u-button></view><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title">{{title}}</text></view></view>
